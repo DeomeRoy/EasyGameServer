@@ -40,7 +40,7 @@ server.post("/postscore", (req, res) => {
     //save to db
     GameDB.insert(req.body).then(doc => {
        //find and sort and limit
-       GameDB.find({}).sort({ "RankScore": -1 }).limit(1).then((docs) => {
+       GameDB.find({}).sort({ "RankScore": -1 }).limit(3).then((docs) => {
           if (docs != null) {
              res.send(docs);
           }
