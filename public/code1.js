@@ -739,7 +739,7 @@ for (var i = 0, k = 0, l = gdjs.Level_95SelectCode.GDLevel_95953Objects1.length;
 }
 gdjs.Level_95SelectCode.GDLevel_95953Objects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level_01", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level_03", false);
 }}
 
 }
