@@ -2158,7 +2158,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.network.sendAwaitableA
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() >= 300);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() >= 500);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Level_9503Code.GDStar_95951Objects2, gdjs.Level_9503Code.GDStar_95951Objects3);
@@ -2176,7 +2176,7 @@ gdjs.copyArray(gdjs.Level_9503Code.GDStar_95951Objects2, gdjs.Level_9503Code.GDS
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() >= 600);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() >= 1000);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Level_9503Code.GDStar_95952Objects2, gdjs.Level_9503Code.GDStar_95952Objects3);
@@ -2194,7 +2194,7 @@ gdjs.copyArray(gdjs.Level_9503Code.GDStar_95952Objects2, gdjs.Level_9503Code.GDS
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() >= 800);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsNumber() >= 1300);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Level_9503Code.GDStar_95953Objects2, gdjs.Level_9503Code.GDStar_95953Objects3);
